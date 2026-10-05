@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--HOME SECTIONUT -->
+    <section id="home" class="home">
+        <div class="home-image">
+            <img src="image/IMG_20260923_151408.jpg" alt="My Photo">
+        </div>
+        <div class="home-text"> 
+          <p class = "sub-title"> HELLO , I'M </p>
+            <h1> Rajanikanta Mallik </h1>
+            <h3> Student and Web Developer </h3>
+             <p>
+                I am interested in Physics, Technology and Web Development.
+                i am learning web developement and building projects to improve my skills.
+                I enjoy creating simple and useful websites,and web projects using
+                HTML, CSS, JavaScript .
+            </p>
+            <a href="#projects" class="btn">
+                View My Projects
+            </a>
+        </div>
+    </section> 
+    <!--about section-->
+        <section id="about" class="about">
+        <div class="about-image">
+            <img src="image/profile.jpg.png" alt="My Photo">
+        </div>
+        <div class="about-text"> 
+          <h2>About Me </h2>
+            <h3> A little About Me </h3>
+             <p>
+                 Hello I am Rajanikanta ,a student interested in Web Development .
+                 I enjoy learning HTML,CSS ,and JAVASCRIPT to create useful and user-friendly websites .
+             </p>
+              <p> My goal is to learn new technologyes, 
+                  improve my coding skills , and work on exciting project
+             </p>
+            <a href="#contact" class="btn">
+                Contact Me
+            </a>
+        </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <p> Technologies I am learning </p>
+        <div class="skill-container">
+            <!-- HTML -->
+            <div class="skill-card">
+                <img src="image/html.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>
+                    I use HTML to create the basic structure
+                    of web pages.
+                </p>
+            </div>
+            <!-- CSS -->
+            <div class="skill-card">
+                <img src="image/css.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>
+                    I use CSS to design attractive layouts,
+                    colors and responsive web pages.
+                </p>
+            </div>
+            <!-- JAVASCRIPT -->
+            <div class="skill-card">
+                <img class="js", src="image/js.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>
+                    I use JavaScript to add interaction
+                    and functionality to websites.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECT SECTION -->
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+        <p>-: A showcase of my recent web development projects and experiments :-</p>
+        <div class="project-container">
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                 <img src="projects/butterflys.jpeg" alt="Beautiful Butterflys">
+                         <h2>Beautiful Butterflys</h2>
+                   <p>
+                        A simple butterflys file made with
+                         HTML, CSS and JavaScript.
+                   </p>
+                     <a href="projects/butterfly.html," class="button">
+                              View Project
+                    </a>
+                    <div> 
+                        <span> HTML</span>
+                        <span> CSS</span>
+                        <span> JS</span>
+                    </div>
+            </div>
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <img src="image/Registration Form.jpg" alt="registration form">
+                <h2>Registration form</h2>
+                <p>
+                   An online registration page designed for a Physics education platform.
+                </p>
+                <a href="registraion.html" class="button">
+                    View Project
+                </a>
+                  <div> 
+                        <span> HTML</span>
+                        <span> CSS</span>
+                        <span> JS</span>
+                    </div>
+            </div>
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <img src="image/portfolio.jpeg" alt="Portfolio">
+                <h2>Personal Portfolio</h2>
+                <p>
+                    My personal portfolio website
+                    created using web technologies.
+                </p>
+                <a href="portfolio.html" class="button">
+                    View Project
+                </a>
+                  <div> 
+                        <span> HTML</span>
+                        <span> CSS</span>
+                        <span> JS</span>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <p>
+            If you have any questions or project ideas,
+            feel free to contact me.
+        </p>
+        <form id="contactForm">
+            <input type="text"
+                id="name"
+                placeholder="Enter your name"
+                required>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email ID"
+                required>
+            <textarea
+                id="message"
+                placeholder="Enter your message"
+                rows="6"
+                required></textarea>
+            <button type="submit">
+                Send Message
+            </button>
+        </form>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 My Portfolio. All Rights Reserved.
+        </p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
